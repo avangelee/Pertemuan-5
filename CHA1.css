@@ -1,0 +1,112 @@
+body {
+    background-color: blue;
+    height: 2000px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.navbar .kiri {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .kiri .nav-link a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar .kiri .nav-link a:hover {
+    color:bisque;
+}
+
+.navbar .kanan button{
+    background-color:cornflowerblue ;
+    color: #fff;
+    border-radius: 3px;
+    padding: 7px;
+    border-width: 0px;
+}
+
+.navbar .kanan button:hover {
+    background-color: lightblue;
+}
+
+.navbar-dua {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    /* padding: 10px; */
+}
+
+.navbar-dua .left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-dua .center .nav-linkk a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar-dua .center .nav-linkk a:hover {
+    color:bisque;
+}
+
+.navbar-dua .right button{
+    background-color:cornflowerblue ;
+    color: #fff;
+    border-radius: 3px;
+    padding: 7px;
+    border-width: 0px;
+}
+
+.navbar-dua .right button:hover {
+    background-color: lightblue;
+}
+
+.navbar-tiga {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    /* padding: 10px; */
+}
+
+.navbar-tiga .links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-tiga .rechts {
+    display: flex;
+}
+
+.navbar-tiga .rechts a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar-tiga .rechts a:hover {
+    color:bisque;
+}
+
+.navbar-tiga .btn button {
+    background-color:cornflowerblue ;
+    color: #fff;
+    border-radius: 3px;
+    padding: 7px;
+    border-width: 0px;
+}
+
+.navbar-tiga .btn button:hover {
+    background-color: lightblue;
+}
